@@ -15,7 +15,7 @@ public class MajidTest{
     replica.resolution     = issue.resolution
     replica.status         = issue.statusd
     replica.priority       = issue.priority
-    replica.attachments    = issue.attachments
+   // replica.attachments    = issue.attachments
 
   }
 }
