@@ -16,7 +16,7 @@ public class MajidTest{
     replica.status         = issue.statusd
     replica.priority       = issue.priority
    // replica.attachments    = issue.attachments
-    issue.customFields."Target Issue Key" = replica.customFields."Target Issue Key"
+    replica.customFields."Target Issue Key" = issue.customFields."Target Issue Key"
 
   }
 }
