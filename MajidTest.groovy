@@ -11,7 +11,7 @@ public class MajidTest{
     replica.summary        = issue.summary
     replica.description    = issue.description
     replica.labels         = issue.labels
-    replica.comments       = issue.comments
+    replica.comments       = issue.comments.findAll {!it.internal}
     replica.resolution     = issue.resolution
     replica.status         = issue.statusd
     replica.priority       = issue.priority
